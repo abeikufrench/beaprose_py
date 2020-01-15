@@ -1,0 +1,23 @@
+$background-color: rgba(231, 223, 223, 0.4);;
+.Result {
+    border: 1px solid rgb(186, 186, 228);
+    z-index: 200!important;
+    border-radius: 10px;
+    display: flex;
+    width: fit-content;
+    background: $background-color;
+    font-family: Roboto;
+    cursor: pointer;
+
+    &:hover {
+        background: lighten($color: $background-color, $amount: 15%);
+    }
+
+    .profile-photo {
+        border-radius: 50%;
+        max-width: 2rem;
+        max-height: 2rem;
+        width: 2rem;
+        height: 2rem;
+    }
+}

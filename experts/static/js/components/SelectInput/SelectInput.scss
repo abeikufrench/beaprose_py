@@ -1,0 +1,19 @@
+$secondary-color: #FFCB21;
+.SelectInput {
+        text-indent: 1px!important;
+        text-overflow: ''!important;
+        appearance: none!important;
+        display: block;
+        background-color: inherit;
+        background-image: url(/static/images/caret.svg) !important; /* !important used for overriding all other customisations */
+        background-repeat: no-repeat;
+        background-position: calc(100% - 10px);
+
+        .caret {
+            display: none;
+        }
+
+        &::-ms-expand {
+            display: none!important;
+        }
+}

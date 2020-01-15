@@ -1,0 +1,16 @@
+.GiveAdvice {
+    
+    background: url("/static/images/rdf.png") no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+
+    .text-container {
+        width: 30rem;
+        text-align: left;
+        position: absolute;
+        top: 10rem;
+        left: 10rem;
+    }
+}

@@ -1,0 +1,30 @@
+.FeedbackCard {
+    display: flex;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #ffffff!important;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+
+    .person-image {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .person-name {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        text-align: left;
+        letter-spacing: 0.03em;
+
+        /* 70% */
+
+        color: rgba(0, 0, 0, 0.7);
+    }
+}

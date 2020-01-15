@@ -1,0 +1,57 @@
+.FilterNav {
+    background: darken(#ffffff, 10%);
+    height: 700px;
+
+    .filter-text {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        /* identical to box height */
+
+        letter-spacing: 0.03em;
+
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .filter-item {
+        margin-top: 2rem;
+    }
+    // width: $sidebar-width;
+    // background: darken(#ffffff, 10%);
+    // height: 100rem;
+    
+    // .spacing {
+    //     height: 8em;
+    // }
+
+    // li {
+    //     line-height: 48px;
+    //     text-align: center;
+
+    //     a {
+    //         display: block;
+    //         height: 48px;
+    //         padding: 0 32px;
+    //         color: lighten($link-color, 30%)!important;
+    //         font-family: Roboto;
+    //         font-size: 13px;
+    //         font-weight: bold;
+    //         line-height: 15px;
+    //         letter-spacing: 0.03em;
+    //         padding-top: 1rem;
+
+    //         &:hover {
+    //             background-color: rgba(0, 0, 0, 0.05);
+    //         }
+
+    //         &.active {
+    //             color: $secondary-color
+    //         }
+    //     }
+    // }
+    
+}

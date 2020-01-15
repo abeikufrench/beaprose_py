@@ -1,0 +1,31 @@
+.SmartPhoneTechnicianItem {
+    background: url("/static/images/person5.png");
+    height: 500px!important;
+    position: relative;
+
+    .text-container {
+        color: #fff;
+        position: absolute;
+        right: 4rem;
+        top: 1rem;
+        width: 35rem;
+        text-align: center;
+        text-transform: capitalize;
+
+        .heading-text {
+            color: #fff;
+        }
+
+        h1 {
+            display: inline;
+            font-size: 5rem;
+            font-weight: 700;
+        }
+    }
+
+    .btn {
+        position: absolute;
+        right: 16rem;
+        top: 18rem;
+    }
+}

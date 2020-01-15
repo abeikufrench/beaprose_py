@@ -1,0 +1,22 @@
+.Error {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.13), 2px 2px 2px rgba(128, 128, 128, 0.13);
+    font-weight: bold;
+    font-family: Roboto;
+    height: fit-content;
+
+    span {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 2rem;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+
+    .error {
+        color: rgba(255, 0, 0, 0.438);
+    }
+
+    .warning {
+        color: rgba(255, 255, 0, 0.438);
+    }
+}

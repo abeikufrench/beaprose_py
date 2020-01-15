@@ -1,0 +1,24 @@
+$primary-color: #313131;
+$secondary-color: #FFCB21;
+.UnregisteredNavbar {
+    background-color: $primary-color;
+
+    ul {
+        a {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .btn-signUp {
+            background: $secondary-color;
+            border-radius: 5px!important;
+            color: black;
+            box-shadow: none!important;
+            text-transform: none;
+        }
+    }
+}

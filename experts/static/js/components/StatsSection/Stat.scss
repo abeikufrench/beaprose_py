@@ -1,0 +1,21 @@
+$stat-box-width: 250px;
+.Stat {
+    width: $stat-box-width;
+    display: flex;
+    border-radius: 10px;
+
+    .stat {
+        color: #ffffff;
+        font-size: 2rem;
+    }
+
+    .title {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 12px;
+    }
+
+    .icon-container {
+        padding-left: 5rem;
+        height: 1rem;
+    }
+}

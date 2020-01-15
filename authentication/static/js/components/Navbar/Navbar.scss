@@ -1,0 +1,42 @@
+.Navbar {
+    $primary-color: #FFFFFF;
+    $secondary-color: #FFCB21;
+    $inputTextColor: rgba(78, 170, 231, 0.5);
+    background: $primary-color;
+    position: sticky!important;
+    color: black;
+    z-index: 200;
+    
+    .brand-logo {
+        margin-left: 44px;
+    }
+
+    i.material-icons {
+        color: #CACACA;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+    .active {
+        .material-icons {
+            color: $secondary-color;
+        }
+    }
+
+    ul {
+        margin-right: 4rem!important;
+    }
+
+    .search-container {
+        position: relative;
+        z-index: 100;
+    }
+
+    .search-results {
+        position: absolute;   
+        width: 100%;
+        z-index: 150;
+    }
+}

@@ -1,0 +1,24 @@
+.Filter {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    display: inline-block;
+    width: fit-content;
+    padding-left: 1rem;
+    text-align: left;
+    padding-right: 1.5rem;
+    position: relative;
+    font-family: Roboto;
+    font-size: 13px;
+    // line-height: 15px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 1rem;
+
+    .close-icon {
+        position: absolute;
+        right: 8px;
+        bottom: 1px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1rem;
+    }
+}

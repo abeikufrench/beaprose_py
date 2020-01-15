@@ -1,0 +1,26 @@
+$secondary-color: #FFCB21;
+$grey-color: rgba(0, 0, 0, 0.5);
+
+.WorkHistoryForm {
+    .select__control {
+        border: none!important;
+        border-bottom: 1px solid $grey-color!important;
+    }
+
+    .select__value-container {
+        transition: all 1s;
+        border: none;
+        &:focus {
+            border: none;
+            border-bottom: 2px solid $secondary-color!important;
+        }
+    }
+
+    .select__indicator-separator {
+        display: none;
+    }
+
+    .select__multi-value {
+        border-radius: 25px!important;
+    }
+}

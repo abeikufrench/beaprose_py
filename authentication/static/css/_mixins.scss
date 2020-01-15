@@ -1,0 +1,57 @@
+@mixin tagStyle {
+    margin-top: 4rem!important;
+}
+
+@mixin descriptionStyle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+
+    /* 70% */
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+@mixin priceStyle {
+    height: 26px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+@mixin cardTitle {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@mixin buttonStyle {
+    $background-color: #ffffff;
+    background: $background-color;
+    /* #C4C4C4 - Mid Grey 3 */
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background: darken($background-color, 15%);
+    }
+}

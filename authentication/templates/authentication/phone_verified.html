@@ -1,0 +1,9 @@
+{% extends '_base.html' %}
+{% load render_bundle from webpack_loader %}
+{% block content %}
+<script>
+window.action_url="{% url 'authentication:phone-verification' request.user.phoneNumber %}"
+</script>
+    <div id="app"></div>
+    {% render_bundle 'phoneVerified' %}
+{% endblock %}

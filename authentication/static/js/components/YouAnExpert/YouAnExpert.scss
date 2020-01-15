@@ -1,0 +1,27 @@
+.YouAnExpert {
+    .list ul {
+        list-style-type: none;
+        margin: 1rem;
+
+        li {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            // font-size: 20px;
+            line-height: 23px;
+            color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 3px;
+            margin-left: 3rem!important;
+
+            &::before {
+                position: relative;
+                top: 0.7rem;
+                content: "\2022";
+                font-size: 3rem;
+                margin-right: 2rem;
+                margin-top: 3px!important;
+                display: inline-block;
+            }
+        }
+    }
+}

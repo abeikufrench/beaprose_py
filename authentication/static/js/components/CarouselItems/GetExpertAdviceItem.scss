@@ -1,0 +1,16 @@
+.GetExpertAdviceItem {
+    .text-container {
+        margin-top: 10rem;
+        margin-left: 5rem!important;
+    }
+
+    .heading-text {
+        width: 30rem;
+    }
+
+    .person-image {
+        background: url("/static/images/person1.png") no-repeat;
+        height: 500px!important;
+        background-size: contain;
+    }
+}

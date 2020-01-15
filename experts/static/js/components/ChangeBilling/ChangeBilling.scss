@@ -1,0 +1,32 @@
+$secondary-color: #FFCB21;
+
+.ChangeBilling {
+    width: 100%!important;
+    padding-left: 20rem;
+    padding-top: 100px;
+
+    .form-change-billing {
+        margin-top: 3rem;
+    }
+
+    .card-containers {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn-save {
+        background: $secondary-color;
+        border-radius: 5px;
+        border: 0;
+        padding: 6px 2.5rem;
+        cursor: pointer;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 19px;
+        color: #313131;
+
+        &:hover {
+            background: darken($secondary-color, 15%);
+        }
+    }
+}

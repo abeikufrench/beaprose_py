@@ -1,0 +1,44 @@
+$secondary-color: #FFCB21;
+
+.ChangeEmail {
+    width: 100%!important;
+    padding: 0 25rem;
+    padding-top: 150px;
+    
+    .text-muted {
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 500;
+        font-family: "Roboto";
+        line-height: 26px;
+    }
+
+    .email-container {
+        margin-top: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .form-change-email {
+        margin-top: 4rem;
+    }
+
+    .btn-save {
+        background: $secondary-color;
+        border-radius: 5px;
+        border: 0;
+        padding: 6px 2.5rem;
+        cursor: pointer;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 19px;
+        color: #313131;
+
+        &:hover {
+            background: darken($secondary-color, 15%);
+        }
+    }
+    
+}

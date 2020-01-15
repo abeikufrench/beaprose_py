@@ -1,0 +1,32 @@
+$secondary-color: #FFCB21;
+$grey-color: rgba(0, 0, 0, 0.05);
+
+.ExperienceInfoCard {
+    display: flex;
+    background: #FFFFFF;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+
+    img {
+        cursor: pointer;
+    }
+
+    .company {
+        position: relative;
+
+
+        .material-icons {
+            position: absolute;
+            right: 0.6rem;
+            cursor: pointer;
+        }
+    }
+
+    .experience-duration {
+        // margin: 0;
+        padding: 0;
+    }
+}

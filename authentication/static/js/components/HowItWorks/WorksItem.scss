@@ -1,0 +1,19 @@
+.WorksItem {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+
+    align-items: center;
+    justify-content: center;
+
+    img {
+        border-radius: 50%;
+        max-width: 120px;
+        min-height: 120px;
+    }
+
+    h5 {
+        font-weight: bold;
+    }
+
+}

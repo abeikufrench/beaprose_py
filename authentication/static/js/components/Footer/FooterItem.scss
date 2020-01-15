@@ -1,0 +1,19 @@
+.FooterItem {
+
+    p {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    li {
+        @extend p;
+        font-weight: normal;
+        text-transform: none;
+        margin-top: 1rem;
+    }
+}

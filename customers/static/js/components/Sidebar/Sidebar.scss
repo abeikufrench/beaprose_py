@@ -1,0 +1,44 @@
+$primary-color: #ffffff;
+$secondary-color: #FFCB21;
+$sidebar-width: 60px;
+$sidebar-height: 1500px;
+$sidebar-font-color: rgba(0, 0, 0, 0.4)!important;
+
+.Sidebar {
+    float: left;
+    background: $primary-color;
+    width: $sidebar-width;
+    // min-height: $sidebar-height;
+    height: auto!important;
+    min-height: $sidebar-height;
+    max-height: auto!important;
+    color: $sidebar-font-color;
+
+    .nav-wrapper {
+        position: sticky;
+        top: 0;
+    }
+
+    ul {
+        margin-top: 3rem;
+        li {
+            float: none;
+            
+            a {
+                color: $sidebar-font-color;
+            }
+        }
+    }
+
+    .active {
+        color: $secondary-color!important;
+        position: relative;
+
+        &:after {
+            content: "\2022";
+            font-size: 4rem;
+            position: absolute;
+            right: -0.8rem;
+        }
+    }
+}

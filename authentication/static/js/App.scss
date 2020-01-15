@@ -1,0 +1,308 @@
+$secondary-color: #FFCB21;
+$white: #fff;
+$submit-color: rgb(8, 8, 223);
+$spacer: 5px;
+$tertiary-color: #666666;
+$borderRadius: 5px!important;
+$inputTextColor: rgba(78, 170, 231, 0.5);
+
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import "~materialize-css/sass/materialize";
+@import "../css/mixins";
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.grey-bg {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.btn-call {
+    @include buttonStyle;
+}
+
+.btn-signUp {
+    background: $secondary-color;
+    border-radius: $borderRadius;
+    color: black;
+    box-shadow: none!important;
+    text-transform: none;
+
+    &:hover {
+        background: lighten($secondary-color, 15%);
+    }
+}
+
+.btn-reset {
+    background: $white;
+    border-radius: $borderRadius;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: none!important;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    &:hover {
+        background: lighten($white, 15%);
+    }
+    &:focus {
+        background: lighten($white, 15%);
+    }
+}
+
+.btn-facebook {
+    border-radius: $borderRadius;
+    background: #2499D6;
+    color: white;
+    box-shadow: none!important;
+    text-transform: none;
+
+    &:hover {
+        background: lighten(#2499D6, 15%);
+    }
+}
+
+.btn-submit {
+    background: $submit-color;
+    border-radius: $borderRadius;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: none!important;
+    text-transform: none;
+    color: $white;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    &:hover {
+        background: lighten($submit-color, 15%);
+    }
+    &:focus {
+        background: lighten($submit-color, 15%);
+    }
+}
+
+.btn-tertiary {
+    background: $tertiary-color;
+    border-radius: 5px!important;
+    color: black;
+    box-shadow: none!important;
+    text-transform: none;
+
+    &:hover {
+        background: lighten($tertiary-color, 15%);
+    }
+}
+
+.text-muted {
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.text-bold {
+    font-weight: bold!important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.text-right {
+    text-align: right!important;
+}
+.text-left {
+    text-align: left!important;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.heading-text {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.mini-heading-text {
+    @extend .heading-text;
+    font-size: 20px;
+}
+
+.search-input {
+    background: #ffffff!important;
+    border: 1px solid rgba(0, 0, 0, 0.05)!important;
+    border-radius: 6px!important;
+    box-sizing: border-box!important;
+    height: 2.5rem!important;
+    // width: 15rem!important;
+    padding: 0.5rem!important;
+    transition: all 1s ease-in;
+    color: darken($inputTextColor, 15%);
+
+    &:focus {
+        border: 2px solid $inputTextColor!important;
+    }
+}
+
+.card-text {
+    @include cardTitle;
+}
+
+// Margins
+
+@for $i from 1 through 5 {
+    .m-#{$i} {
+        margin: $spacer * $i;
+    }
+}
+
+// Margin-top
+@for $i from 1 through 5 {
+    .mt-#{$i} {
+        margin-top: $spacer * $i!important;
+    }
+}
+
+// Margin-left
+@for $i from 1 through 5 {
+    .ml-#{$i} {
+        margin-left: $spacer * $i!important;
+    }
+}
+
+// Margin-right
+@for $i from 1 through 5 {
+    .mr-#{$i} {
+        margin-right: $spacer * $i!important;
+    }
+}
+
+// Margin-bottom
+@for $i from 1 through 5 {
+    .mb-#{$i} {
+        margin-bottom: $spacer * $i!important;
+    }
+}
+
+// Margin-horizontal
+@for $i from 1 through 5 {
+    .mx-#{$i} {
+        margin-right: $spacer * $i!important;
+        margin-left: $spacer * $i!important;
+    }
+}
+
+// Margin-vertical
+@for $i from 1 through 5 {
+    .my-#{$i} {
+        margin-top: $spacer * $i!important;
+        margin-bottom: $spacer * $i!important;
+    }
+}
+
+// Paddings
+@for $i from 1 through 5 {
+    .p-#{$i} {
+        padding: $spacer * $i!important;
+    }
+}
+
+// Padding-top
+@for $i from 1 through 5 {
+    .pt-#{$i} {
+        padding-top: $spacer * $i!important;
+    }
+}
+
+// Padding-left
+@for $i from 1 through 5 {
+    .pl-#{$i} {
+        padding-left: $spacer * $i!important;
+    }
+}
+
+// Padding-right
+@for $i from 1 through 5 {
+    .pr-#{$i} {
+        padding-right: $spacer * $i;
+    }
+}
+
+// Padding-bottom
+@for $i from 1 through 5 {
+    .pb-#{$i} {
+        padding-bottom: $spacer * $i;
+    }
+}
+
+// Padding-horizontal
+@for $i from 1 through 5 {
+    .px-#{$i} {
+        padding-right: $spacer * $i;
+        padding-left: $spacer * $i;
+    }
+}
+
+// Padding-vertical
+@for $i from 1 through 5 {
+    .py-#{$i} {
+        padding-top: $spacer * $i;
+        padding-bottom: $spacer * $i;
+    }
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.horizontal-divider {
+    display: inline-block;
+    width: 0;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.title-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.paragraph-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.03em;
+
+    /* 70% */
+
+    color: rgba(0, 0, 0, 0.7);
+}
+

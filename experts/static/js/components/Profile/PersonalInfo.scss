@@ -1,0 +1,12 @@
+.PersonalInfo {
+    $secondary-color: #FFCB21;
+
+    .CallButton {
+        margin-top: 0.5rem;
+        background: $secondary-color;
+
+        &:hover {
+            background: darken($secondary-color, 15%);
+        }
+    }
+}

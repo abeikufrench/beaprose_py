@@ -1,0 +1,27 @@
+.ExpertInfo {
+    display: flex;
+    flex-direction: column;
+
+    .first {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .second {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .third {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    i {
+        font-size: 3rem;
+        float: right;
+    }
+}

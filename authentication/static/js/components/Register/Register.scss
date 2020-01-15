@@ -1,0 +1,19 @@
+@import "~react-phone-input-2/dist/style.css";
+
+.Register {
+
+    .col.m6 {
+        margin: 0;
+        padding: 0
+    }
+
+    .prefix {
+        font-size: 1.2rem!important;
+        text-align: center;
+        margin-top: 6px!important;
+        margin-right: 7px!important;
+        // background: lightblue;
+        display: inline-block;
+        height: 100%;
+    }
+}
