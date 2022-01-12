@@ -28,7 +28,7 @@ dicttoxml==1.7.4
 distorm3==3.4.1
 Django==1.11.20
 django-extensions==2.1.4
-dnslib==0.9.7
+dnslib==0.9.17
 dnspython==1.16.0
 docutils==0.14
 dpkt==1.9.2
