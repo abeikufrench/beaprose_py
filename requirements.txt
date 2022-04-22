@@ -122,7 +122,7 @@ pymssql==2.1.4
 PyOpenGL==3.1.0
 pyOpenSSL==19.0.0
 pyparsing==2.2.0
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 PyQt5==5.12.1
 pyrit==0.5.1
 PySide==1.2.2
