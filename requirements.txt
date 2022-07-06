@@ -74,7 +74,7 @@ killerbee==1.0
 kiwisolver==1.0.1
 lazy-object-proxy==1.4.2
 ldap3==2.4.1
-lxml==4.3.3
+lxml==4.9.1
 M2Crypto==0.31.0
 Mako==1.0.7
 MarkupSafe==1.1.1
