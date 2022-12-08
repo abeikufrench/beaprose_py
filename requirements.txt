@@ -11,7 +11,7 @@ backports.functools-lru-cache==1.5
 BBQSQL==1.0
 beautifulsoup4==4.7.1
 blinker==1.4
-certifi==2018.8.24
+certifi==2022.12.7
 chardet==3.0.4
 Cheetah3==3.1.0
 Click==7.0
